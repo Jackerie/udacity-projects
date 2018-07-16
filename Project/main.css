@@ -4,7 +4,12 @@ html,body{
     height:100%;
     width:100%;
     margin: 0; 
-    padding: 0; 
+    padding: 0;
+    background-color:rgb(238, 231, 255);
+}
+body{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: lighter;
 }
 .containerouter{
     width:100%;
@@ -13,7 +18,7 @@ html,body{
 
 }
 .containerinner{
-    background-color:white;
+    background-color:rgb(236, 255, 251);
     padding-left:auto;
     height:100%;
     padding-right:auto;
@@ -26,6 +31,7 @@ html,body{
     font-weight: lighter;
     font-size: 15px;
    text-align: center;
+   z-index: 6;
 }
 .headings p{
     font-size:14px;
@@ -36,31 +42,45 @@ html,body{
     font-weight: lighter;
 }
 .logo{
-    text-align: left;    
+    text-align: left;
+    position:absolute;    
+    width:65px;
+    height:65px;
 }
 .rowimg{  
     display: flex;
+    flex-wrap: wrap;
+}
+
+}
+.rowimg p{
+    z-index: 6;
+    text-align: center;
 }
 #imga{
     max-width: 300px;
     max-height:auto;
+    padding-right:20px;
 }
 #imgb{
     order:1;
-    max-width:150px;
+    max-width:130px;
     max-height:auto;
+    padding-right:20px;
 }
 
 #imgc{
     order:2;
-    max-width:150px;
+    max-width:130px;
     max-height:auto;
+    padding-right:20px;
 }
 
 #imgd{
     order:3;
-    max-width:150px;
+    max-width:130px;
     max-height:auto;
+    padding-right:20px;
 }
 .linktitle{
     color:rgb(151, 151, 151);
