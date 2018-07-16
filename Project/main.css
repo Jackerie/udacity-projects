@@ -18,7 +18,7 @@ body{
 
 }
 .containerinner{
-    background-color:rgb(206, 206, 212);
+    background-color:rgb(206, 206, 211);
     padding-left:auto;
     height:100%;
     padding-right:auto;
@@ -50,8 +50,7 @@ body{
     height:65px;
 }
 .rowimg{  
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
 }
 .rowimg p{
     z-index: 6;
@@ -60,7 +59,7 @@ body{
 #imga{
     max-width: 300px;
     max-height:auto;
-    padding-right:20px;
+    box-shadow:5px 5px 15px grey;
 }
 #imgb{
     order:1;
@@ -82,8 +81,20 @@ body{
     max-height:auto;
     padding-right:20px;
 }
+#imge{
+    order:4;
+    max-width:140px;
+    max-height:auto;
+    padding-right:20px;
+}
+#imgf{
+    order:5;
+    max-width:140px;
+    max-height:auto;
+    padding-right:20px;
+}
 .linktitle{
-    color:rgb(151, 151, 151);
+    color:rgb(85, 85, 85);
     font-style: italic;
     font-size:10px;
     font-weight: lighter;
@@ -92,5 +103,5 @@ body{
 footer{
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 13px;
     text-align: center;}
