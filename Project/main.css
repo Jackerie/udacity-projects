@@ -5,7 +5,7 @@ html,body{
     width:100%;
     margin: 0; 
     padding: 0;
-    background-color:rgb(238, 231, 255);
+    background-color:rgb(206, 206, 212);
 }
 body{
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -18,12 +18,13 @@ body{
 
 }
 .containerinner{
-    background-color:rgb(236, 255, 251);
+    background-color:rgb(223, 223, 223);
     padding-left:auto;
     height:100%;
     padding-right:auto;
     text-align: center;
     position: relative;
+    box-shadow:5px 5px 15px grey;
 }
 
 .headings{
@@ -32,6 +33,7 @@ body{
     font-size: 15px;
    text-align: center;
    z-index: 6;
+   box-shadow:5px 5px 15px grey;
 }
 .headings p{
     font-size:14px;
@@ -39,7 +41,7 @@ body{
 .subheader{
     font-style: italic;
     font-size:10px;
-    font-weight: lighter;
+    font-weight: lighter;   
 }
 .logo{
     text-align: left;
@@ -50,8 +52,6 @@ body{
 .rowimg{  
     display: flex;
     flex-wrap: wrap;
-}
-
 }
 .rowimg p{
     z-index: 6;
@@ -64,21 +64,21 @@ body{
 }
 #imgb{
     order:1;
-    max-width:130px;
+    max-width:140px;
     max-height:auto;
     padding-right:20px;
 }
 
 #imgc{
     order:2;
-    max-width:130px;
+    max-width:140px;
     max-height:auto;
     padding-right:20px;
 }
 
 #imgd{
     order:3;
-    max-width:130px;
+    max-width:140px;
     max-height:auto;
     padding-right:20px;
 }
