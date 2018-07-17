@@ -93,6 +93,21 @@ body{
     max-height:auto;
     padding-right:20px;
 }
+.project1desc{
+    padding-bottom:40px;
+}
+.project2desc{
+    padding-bottom:40px;
+}
+.project3desc{
+    padding-bottom:40px;
+}
+.project4desc{
+    padding-bottom:40px;
+}
+.project5desc{
+    padding-bottom:40px;
+}
 .linktitle{
     color:rgb(85, 85, 85);
     font-style: italic;

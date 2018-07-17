@@ -1,0 +1,156 @@
+/*Tablet Styles follow.. (Mobile is default styles)  */
+@media screen and (min-width:600px) and (max-width:900px){
+    h1{
+        font-size:3.9em;
+    }
+    h2{
+        font-size:3em;
+    }
+    #imga{
+        max-width:600px;
+        box-shadow:30px 10px 30px grey;
+    }
+    .logo{
+        width:100px;
+    }
+    .linktitle{
+        font-size:2em;
+    }
+    .headings p{
+        font-size:1.8em;
+    }
+    #imgb{
+        max-width:200px;
+        max-height:auto;
+    }
+    
+    #imgc{
+        max-width:200px;
+        max-height:auto;
+    }
+    
+    #imgd{
+        max-width:200px;
+        max-height:auto;
+    }
+    #imge{
+        max-width:200px;
+        max-height:auto;
+    }
+    #imgf{
+        max-width:200px;
+        max-height:auto;
+    }
+    .project1desc{
+        padding-bottom:60px;
+        font-size:1.9em;
+    }
+    .project2desc{
+        padding-bottom:60px;
+        font-size:1.9em;
+    }
+    .project3desc{
+        padding-bottom:60px;
+        font-size:1.9em;
+    }
+    .project4desc{
+        padding-bottom:60px;
+        font-size:1.9em;
+    }
+    .project5desc{
+        padding-bottom:60px;
+        font-size:1.9em;
+    }
+    footer{
+        font-size:1.2em;
+    }
+}
+/*Desktop Styles follow.. (Mobile is default styles)  */
+@media screen and (min-width:901px){
+    h1{
+        font-size:4.5em;
+    }
+    h2{
+        font-size:4em;
+    
+    }
+    .subheader{
+        color:rgb(41, 0, 54);
+    }
+    #imga{
+        max-width:900px;
+        box-shadow:45px 10px 35px grey;
+    }
+    .logo{
+        width:165px;
+    }
+    .linktitle{
+        font-size:3em;
+    }
+    .headings p{
+        font-size:2.1em;
+    }
+    #imgb{
+        max-width:250px;
+        max-height:auto;
+    }
+    
+    #imgc{
+        max-width:250px;
+        max-height:auto;
+    }
+    
+    #imgd{
+        max-width:250px;
+        max-height:auto;
+    }
+    #imge{
+        max-width:250px;
+        max-height:auto;
+    }
+    #imgf{
+        max-width:250px;
+        max-height:auto;
+    }
+    .project1desc{
+        padding-bottom:80px;
+        font-size:1.9em;
+    }
+    .project2desc{
+        padding-bottom:80px;
+        font-size:1.9em;
+    }
+    .project3desc{
+        padding-bottom:80px;
+        font-size:1.9em;
+    }
+    .project4desc{
+        padding-bottom:80px;
+        font-size:1.9em;
+    }
+    .project5desc{
+        padding-bottom:80px;
+        font-size:1.9em;
+    }
+    footer{
+        font-size:1.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
