@@ -55,12 +55,10 @@ body{
 .rowimg{  
     display:flex;
     flex-direction: column;
-
 }
 .rowimg p{
     z-index: 6;
     text-align: center;
-    
 }
 #imga{
     max-width: 300px;
