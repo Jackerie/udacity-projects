@@ -127,18 +127,29 @@ h1 {
 .modal.show{
     display: block; 
 }
+.starsUL{
+    display:-webkit-inline-box;
+}
+.starsUL li{
+float: left;
+}
 .modal-content{
-    background:linear-gradient(160deg, #9bffb4 0%, #a2c7ff 100%);
+    background:linear-gradient(160deg, #ff0000 0%, #ff5f03 100%);
     margin: 15% auto; 
     padding: 20px;
     font-size:28px;
     border: 1px solid rgb(255, 253, 146);
-    width: 60%; 
+    width: auto; 
+    text-align: center;
+    vertical-align: center;
+    color:white;
 }
 .tryAgain{
+    position:relative;
     background-color:rgb(153, 153, 153);
     font-size:23px;
-    text-align: center;
+    width:300px;
+    right:50%;
 }
 .tryAgain:hover{
     cursor: pointer;

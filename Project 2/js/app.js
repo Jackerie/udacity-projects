@@ -193,15 +193,16 @@ function shuffle(array) {
     return array;
 }
 hazzah();
-function setNumStars(starsList) {
-    var starsList = document.querySelector('.stars');
+function setNumStars(numberOfStars) {
+    var starsList = document.querySelector('.starsList');
     starsList.innerHTML = '';
-    for (let i = 0; i < starsList; i++) {
+    for (let i = 0; i < numberOfStars; i++) {
         let li = document.createElement('li');
         let i = document.createElement('i');
         i.className = 'fa fa-star';
         li.appendChild(i)
-        starsList.appendChild(li)
+        starsList.appendChild(li) = element.setAttribute("style", "float: left;");
+        i =  element.setAttribute("style", "float: left;");
     }
 }
 function hazzah() {
@@ -212,6 +213,7 @@ function hazzah() {
         modal[0].classList.add("show");
         document.getElementById("totalTime").innerHTML = "Final Time: " + finalTime;
         document.getElementById("lastMove").innerHTML = "Moves: " + moves;
-        setNumStars(starRating());
+        setNumStars(5);
+        var holder = setNumStars(5);
     }
 }
