@@ -158,6 +158,10 @@ list-style-type: none;
 .tryAgain:hover{
     cursor: pointer;
 }
+footer{
+text-align:center;
+font-size:25px;
+}
 /*Some animations for my game*/
 @keyframes wiggle{
     0% {transform: rotate(10deg);}
