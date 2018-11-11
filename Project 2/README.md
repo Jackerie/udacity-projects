@@ -1,20 +1,18 @@
 # Memory Game Project
 
-## Table of Contents
+Welcome to my Memory Game. 
+To play simply click on any of the facedown cards
+And aim to match this card to another card using your
+Memory. Try and improve each time to improve your 
+High scores. When you have matched all 16 cards, 
+You will see a pop-up window with your scores, 
+Click on the 'try again button' if you want to play again. 
+At any point you can click on the restart button to 
+Shuffle the cards and refresh all scores. 
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+You can expect to have a great time enjoying the game, 
+All while improving your memory. 
 
-## Instructions
+Good luck and have fun. 
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
