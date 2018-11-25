@@ -70,7 +70,8 @@ var Player = function() {
 // Check if the player is in the water
 Player.prototype.update = function() {
     if (this.y == convertY(0)) {
-
+        let modal = document.getElementsByClassName("modal-window");
+         modal[0].classList.add("open");
         console.log("winner winner chicken dinner");
     }
 };
