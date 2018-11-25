@@ -70,7 +70,6 @@ var Player = function() {
 // Check if the player is in the water
 Player.prototype.update = function() {
     if (this.y == convertY(0)) {
-
         console.log("winner winner chicken dinner");
     }
 };
