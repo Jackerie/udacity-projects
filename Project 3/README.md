@@ -10,6 +10,6 @@ To win the game, you need to cross the terrain infront of you and get to the wat
 If a bug hits you, the game will reset.
 If you win the game, and want to play again, press F5.
 
-##What can you expect?
+#What can you expect?
 
 Having a bit of fun, enjoying some old school nostalgia :) 
