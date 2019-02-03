@@ -1,3 +1,10 @@
-body {
+body{
     text-align: center;
+    z-index: 1;
+}
+footer{
+    text-decoration-style: wavy;
+text-align:center;
+font-size:25px;
+color: rgb(40, 40, 75);
 }

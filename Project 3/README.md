@@ -1,20 +1,28 @@
 # Classic Arcade Game Clone Project
 
-## Table of Contents
+Welcome to my Classic Arcade Game Frogger
+#How to set the game up:
+-Go to my Github project repo: https://github.com/Jackerie/udacity-projects
+-Go to the green button that says "Clone or download"
+- Select Open in Desktop if you have Github for desktop
+-Select Download ZIP if you do not have Github for desktop.
+-If you use Github for Desktop, click on open this repo in explorer, you can then open the index.html to view the game in browser.
+-If using zip, right click on it and say extract here. You can then Navigate to the index.html file and open it to view the game in browser
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+To make things easier for you, Here is a link to the game hosted on github's servers:
 
-## Instructions
+*http://htmlpreview.github.io/?https://github.com/Jackerie/udacity-projects/blob/master/Project%203/index.html*
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+#How to play:
+To play the game, Use the directional keys on your keyboard, which will move your character one 'square' in any direction.
+Your character cannot leave the game board.
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+To win the game, you need to cross the terrain infront of you and get to the water *without* getting hit by a nasty bug on the way.
+You need to press forward once in the water to trigger your victory screen.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+If a bug hits you, the game will reset.
+If you win the game, and want to play again, press F5.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##What can you expect?
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Having a bit of fun, enjoying some old school nostalgia :) 

@@ -70,7 +70,8 @@ var Player = function() {
 // Check if the player is in the water
 Player.prototype.update = function() {
     if (this.y == convertY(0)) {
-
+       // var modal = document.querySelector(".modal");
+        //modal.classList.add("show-modal");
         console.log("winner winner chicken dinner");
     }
 };
@@ -82,7 +83,7 @@ Player.prototype.render = function() {
 
 Player.prototype.handleInput = function(key) {
     if (key === undefined) return;
-
+    if (this.y == convertY(0)) {alert("You win. Press F5 to Reset the game");}
     if (key === 'left') {
         this.x = (this.x - (1 * xMultiplier)).clamp(convertX(0), convertX(4))
     } else if (key === 'down') {
