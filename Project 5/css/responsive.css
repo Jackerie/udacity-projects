@@ -1,0 +1,39 @@
+@media only screen and (max-width: 749px) {
+    #restaurants-list li {
+      max-width: 100%;
+    }
+    .inside #footer {
+      width: 100vw;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 10px;
+    }
+    .inside #map-container {
+      top: 130px;
+      position: relative;
+      height: 300px;
+      width: 100vw;
+    }
+    .inside #restaurant-container {
+      position: relative;
+      width: 100vw;
+      padding: 140px 5px 0 0;
+      margin: auto;
+      text-align: center;
+    }
+    .inside #reviews-container {
+      width: 100vw;
+      padding: 5px;
+      margin: auto;
+    }
+    @media only screen and (min-width: 750px) {
+      #restaurants-list li {
+        max-width: 45%;
+      }
+    }
+    @media only screen and (min-width: 1000px) {
+      #restaurants-list li {
+        max-width: 300px;
+      }
+    }
+  }
